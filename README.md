@@ -28,15 +28,14 @@ Setup
 		git clone https://github.com/yourusername/sta.git
 		cd sta
 
-Run the tracker
+2.	Run the tracker
 
-	2.	python tracker.py
+		python tracker.py
 
-python tracker.py
 
-Run the peer (in a different terminal):
+3. Run the peer (in a different terminal):
 
-	3.	python peer.py
+		python peer.py
 
 
 
