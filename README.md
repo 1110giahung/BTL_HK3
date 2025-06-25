@@ -23,23 +23,25 @@ Requirements
 	•	Required Python packages: socket, threading (for multithreading)
 
 Setup
-	1.	Clone the repository:
+1.	Clone the repository:
 
-git clone https://github.com/yourusername/sta.git
-cd sta
+		git clone https://github.com/yourusername/sta.git
+		cd sta
 
+Run the tracker
 
-	2.	Run the tracker:
+	2.	python tracker.py
 
 python tracker.py
 
+Run the peer (in a different terminal):
 
-	3.	Run the peer (in a different terminal):
-
-python peer.py
+	3.	python peer.py
 
 
-	4.	Use the start command to begin operations and the update command to refresh file availability. To request a file, use the request <filename> command.
+
+
+Use the start command to begin operations and the update command to refresh file availability. To request a file, use the request <filename> command.
 
 System Architecture
 
