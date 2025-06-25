@@ -76,9 +76,9 @@ Conclusion
 The Simple Torrent-like Application (STA) demonstrates key concepts of networking, such as socket programming, multithreading, and decentralized file management. It successfully implements a peer-to-peer file-sharing model, showcasing the power of decentralized systems for efficient data distribution.
 
 Authors
-	- Huỳnh Gia Hưng – 2252274
-	- Mạc Hồ Do Khang – 2252297
- 	- Nguyễn Đức Hạnh Nhi – 2252578
+- Huỳnh Gia Hưng – 2252274
+- Mạc Hồ Do Khang – 2252297
+- Nguyễn Đức Hạnh Nhi – 2252578
 
 License
 
