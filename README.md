@@ -1,7 +1,3 @@
-Based on the content from your report, here’s a README file draft that you can use for your GitHub repository:
-
-⸻
-
 Simple Torrent-like Application (STA)
 
 This repository contains the implementation of a Simple Torrent-like Application (STA), designed as a simplified version of BitTorrent using the TCP/IP protocol stack. The application aims to achieve multi-directional data transfer (MDDT) and peer-to-peer (P2P) file sharing, focusing on efficient data dissemination among decentralized peers.
@@ -80,9 +76,4 @@ Authors
 - Mạc Hồ Do Khang – 2252297
 - Nguyễn Đức Hạnh Nhi – 2252578
 
-License
-
-MIT License
-
-⸻
 
