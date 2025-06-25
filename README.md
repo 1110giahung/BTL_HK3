@@ -58,9 +58,9 @@ A simple class structure is followed:
 - File Class: Handles file chunks, downloading pieces, and managing the file’s status.
 
 Data Flow
-1. Registration Phase: Peers register their file metadata with the tracker.
-2. File Request & Sharing: Peers request files or file pieces from the tracker, which responds with a list of peers holding the desired chunks.
-3. Chunk Downloading: Peers download file pieces simultaneously from multiple peers (MDDT), optimizing transfer speeds.
+- Registration Phase: Peers register their file metadata with the tracker.
+- File Request & Sharing: Peers request files or file pieces from the tracker, which responds with a list of peers holding the desired chunks.
+- Chunk Downloading: Peers download file pieces simultaneously from multiple peers (MDDT), optimizing transfer speeds.
 
 Commands
 - start: Begins peer operations and establishes communication with the tracker.
@@ -76,9 +76,9 @@ Conclusion
 The Simple Torrent-like Application (STA) demonstrates key concepts of networking, such as socket programming, multithreading, and decentralized file management. It successfully implements a peer-to-peer file-sharing model, showcasing the power of decentralized systems for efficient data distribution.
 
 Authors
-	•	Huỳnh Gia Hưng – 2252274
-	•	Mạc Hồ Do Khang – 2252297
-	•	Nguyễn Đức Hạnh Nhi – 2252578
+	- Huỳnh Gia Hưng – 2252274
+	- Mạc Hồ Do Khang – 2252297
+ 	- Nguyễn Đức Hạnh Nhi – 2252578
 
 License
 
