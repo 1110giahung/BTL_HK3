@@ -52,19 +52,20 @@ The system is composed of the following core components:
 Class Diagram
 
 A simple class structure is followed:
-	•	Peer Class: Handles peer-to-peer communication, file download/upload, and registration with the tracker.
-	•	Server Class: Manages communication between peers and updates their file information.
-	•	File Class: Handles file chunks, downloading pieces, and managing the file’s status.
+
+- Peer Class: Handles peer-to-peer communication, file download/upload, and registration with the tracker.
+- Server Class: Manages communication between peers and updates their file information.
+- File Class: Handles file chunks, downloading pieces, and managing the file’s status.
 
 Data Flow
-	1.	Registration Phase: Peers register their file metadata with the tracker.
-	2.	File Request & Sharing: Peers request files or file pieces from the tracker, which responds with a list of peers holding the desired chunks.
-	3.	Chunk Downloading: Peers download file pieces simultaneously from multiple peers (MDDT), optimizing transfer speeds.
+1. Registration Phase: Peers register their file metadata with the tracker.
+2. File Request & Sharing: Peers request files or file pieces from the tracker, which responds with a list of peers holding the desired chunks.
+3. Chunk Downloading: Peers download file pieces simultaneously from multiple peers (MDDT), optimizing transfer speeds.
 
 Commands
-	•	start: Begins peer operations and establishes communication with the tracker.
-	•	update: Refreshes the list of available files.
-	•	request <filename>: Requests a file from the available peers.
+- start: Begins peer operations and establishes communication with the tracker.
+- update: Refreshes the list of available files.
+- request <filename>: Requests a file from the available peers.
 
 Multi-Threaded Data Transfer (MDDT)
 
